@@ -1,0 +1,14 @@
+development:
+  fusionauth_client_id: <%= ENV["FUSIONAUTH_CLIENT_ID"] %>
+  fusionauth_client_secret: <%= ENV["FUSIONAUTH_CLIENT_SECRET"] %>
+  fusionauth_domain: <%= ENV["FUSIONAUTH_DOMAIN"] %>
+
+test:
+  fusionauth_client_id: <%= ENV["FUSIONAUTH_CLIENT_ID"] %>
+  fusionauth_client_secret: <%= ENV["FUSIONAUTH_CLIENT_SECRET"] %>
+  fusionauth_domain: <%= ENV["FUSIONAUTH_DOMAIN"] %>
+
+production:
+  fusionauth_client_id: <%= ENV["FUSIONAUTH_CLIENT_ID"] %>
+  fusionauth_client_secret: <%= ENV["FUSIONAUTH_CLIENT_SECRET"] %>
+  fusionauth_domain: <%= ENV["FUSIONAUTH_DOMAIN"] %>
